@@ -1,0 +1,226 @@
+# ============================
+# Django-React Project .gitignore
+# ============================
+
+# ----------------------------
+# Python Related
+# ----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Migrations (optional: usually you want to commit migrations)
+# Uncomment if you prefer to ignore migration files
+# */migrations/
+
+# ----------------------------
+# React Related
+# ----------------------------
+
+# Dependencies
+frontend/node_modules/
+
+# Production build
+frontend/build/
+frontend/dist/
+
+# Local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Testing
+frontend/coverage/
+
+# Miscellaneous
+frontend/.eslintcache
+frontend/.parcel-cache
+frontend/.next/
+frontend/out/
+frontend/.cache/
+frontend/.server/
+
+# ----------------------------
+# Environment Variables
+# ----------------------------
+
+# Backend .env
+backend/.env
+
+# ----------------------------
+# IDEs and Editors
+# ----------------------------
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Emacs
+*~
+\.emacs.d/
+
+# Vim
+*.swp
+*.swo
+
+# ----------------------------
+# OS Generated Files
+# ----------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ----------------------------
+# Logs and Databases
+# ----------------------------
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+
+# ----------------------------
+# Security and Certificates
+# ----------------------------
+
+*.pem
+*.key
+*.crt
+
+# ----------------------------
+# Other
+# ----------------------------
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Composer (if applicable)
+composer.lock
+
+# ----------------------------
+# Miscellaneous
+# ----------------------------
+
+# Ignore any other files you deem unnecessary
+
+# ----------------------------
+# Additional Project Specific
+# ----------------------------
+
+# Ghost Writer Frontend specific
+ghost-writer-frontend/node_modules/
+ghost-writer-frontend/.env
+ghost-writer-frontend/.env.*
+ghost-writer-frontend/dist/
+ghost-writer-frontend/build/
+ghost-writer-frontend/.vite/
+ghost-writer-frontend/coverage/
+
+# Python virtual environment (additional names)
+.venv/
+pythonenv*/
+
+# VS Code workspace settings
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Local development settings
+backend/backend/local_settings.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Poetry
+poetry.lock
+
+# Environment variables (root level)
+.env
+.env.*

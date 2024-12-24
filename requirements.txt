@@ -1,0 +1,48 @@
+# Django Framework
+django>=5.0
+
+# Django REST Framework for building APIs
+djangorestframework>=3.14
+
+# Simple JWT for JWT-based authentication
+djangorestframework-simplejwt>=5.0,<6.0
+
+# PostgreSQL adapter for Python
+psycopg2-binary>=2.9
+
+# Django CORS Headers to handle Cross-Origin Resource Sharing
+django-cors-headers>=4.3.1
+
+# Python Dotenv for managing environment variables
+python-dotenv>=1.0
+
+# OpenAI API Client (if integrating OpenAI services)
+openai>=1.3.7
+
+# Gunicorn for deploying the Django application
+gunicorn>=21.2
+
+# Additional Utilities (optional but recommended)
+
+# Django Filter for advanced filtering in Django REST Framework
+django-filter>=23.1,<24.0
+
+# Pillow for image processing (if your project handles images)
+Pillow
+
+# Whitenoise for serving static files in production
+whitenoise>=6.6
+
+# Optional: Django Extensions for additional management commands and utilities
+django-extensions>=3.2,<4.0
+
+# Optional: Celery for asynchronous task processing
+celery>=5.3,<6.0
+
+# Optional: Redis as a message broker for Celery
+redis>=4.5,<5.0
+
+# Optional: Django Storages for handling file storage
+django-storages>=1.14
+
+requests
